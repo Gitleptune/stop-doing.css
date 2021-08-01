@@ -1,0 +1,39 @@
+.stop-doing {
+	padding: 0.5em;
+	background: linear-gradient(
+		350deg,
+		rgba(171, 210, 235, 1) 0%,
+		rgba(246, 252, 252, 1) 90%
+	);
+	font-family: "Helvetica";
+	width: 35em;
+	height: auto;
+}
+/* STOP-DOING-HEADING */
+div.stop-doing > p:nth-child(1) {
+	text-shadow: 3px 2px 2px #6b6b6b;
+	font-weight: 800;
+	font-size: 2em;
+	margin: 0.2em 0em -0.2em 0em;
+	text-align: center;
+}
+/* STOP-DOING-LISTS */
+div.stop-doing > ul > li {
+	margin-top: 0.5em;
+	font-weight: 600;
+}
+div.stop-doing > ul > li > b {
+	font-weight: 800;
+}
+/* STOP-DOING-IMAGES */
+div.stop-doing > img {
+	mix-blend-mode: multiply;
+}
+div.stop-doing > div > img + p {
+	color: red;
+	text-align: center;
+}
+div.stop-doing > div > img {
+	display: flex;
+	margin: auto;
+}
