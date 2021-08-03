@@ -24,13 +24,13 @@ stop-doing > div {
 }
 stop-doing > div > div {
 	flex: 30%;
-  margin: 1em;
+	margin: 1em;
 }
 stop-doing > :last-child > :last-child b {
 	margin: 1em;
 	font-size: 1.2em;
 }
 stop-doing > b * {
-  margin: 0.5em;
-  font-size: 1.2em;
+	margin: 0.5em;
+	font-size: 1.2em;
 }
