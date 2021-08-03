@@ -1,45 +1,36 @@
-.stop-doing {
-	padding: 0.5em;
-	background: linear-gradient(#fcfcfc 0%, #abd2eb 90%);
+stop-doing {
+	display: block;
+	padding: 1em;
+	background: linear-gradient(#fff 0%, #abd3eb 90%);
 	font-family: "Helvetica";
 	width: 35em;
 	height: auto;
 }
-/* STOP-DOING-HEADING */
-div.stop-doing > p:nth-child(1) {
-	text-shadow: 3px 2px 2px #6b6b6b;
-	font-weight: 800;
+stop-doing [p] {
 	font-size: 2em;
-	margin: 0.2em 0em -0.2em 0em;
-	text-align: center;
+	text-shadow: 3px 2px 2px #666;
 }
-/* STOP-DOING-LISTS */
-div.stop-doing > ul > li {
-	margin-top: 0.5em;
+stop-doing ul > li {
+	margin: 0.4em;
 }
-/* STOP-DOING-LOOK */
-div.stop-doing > ul + p {
-	text-align: center;
+stop-doing img {
+	width: 100%;
 }
-div.stop-doing > ul + p + * {
-	font-weight: 600;
-	text-align: center;
-}
-/* STOP-DOING-IMAGES */
-div.stop-doing > div > div > img + p {
+stop-doing img + * {
 	color: red;
-	text-align: center;
 }
-div.stop-doing > div > div > img {
-	mix-blend-mode: multiply;
-	display: list-item;
-	margin: auto;
+stop-doing > div {
+	display: flex;
 }
-/* STOP-DOING-FOOLS */
-div.stop-doing > p:nth-last-child(2) {
-	text-align: center;
+stop-doing > div > div {
+	flex: 30%;
+  margin: 1em;
 }
-div.stop-doing > p:last-child {
-	text-align: center;
-	font-weight: 600;
+stop-doing > :last-child > :last-child b {
+	margin: 1em;
+	font-size: 1.2em;
+}
+stop-doing > b * {
+  margin: 0.5em;
+  font-size: 1.2em;
 }
