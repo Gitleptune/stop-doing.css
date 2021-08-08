@@ -12,3 +12,7 @@
 ## Usage
 
 Simply fill in the HTML template ([With Text](https://github.com/Gitleptune/stop-doing.css/blob/main/template-full.html)/[Without Text](https://github.com/Gitleptune/stop-doing.css/blob/main/template-empty.html)) on a local file, [JSFiddle](https://jsfiddle.net/fqeLcwdy/) or [Codepen](https://codepen.io/bravesimp/pen/qBmQaXe) and take a screenshot.
+
+## Contibuting
+
+This project is mostly finished but if you can make it be smaller without adding classes/ids/using general selectors (`ul`, `p` etc)
